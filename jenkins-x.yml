@@ -1,1 +1,5 @@
 buildPack: javascript
+pipelineConfig:
+  agent:
+    label: jenkins-nodejs
+    container: gcr.io/jenkinsxio/builder-nodejs:2.0.1039-369
